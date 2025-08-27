@@ -173,5 +173,6 @@ def main(fin,fout):
 
 if __name__=='__main__':
     i=sys.argv[1] if len(sys.argv)>1 else 'iscp_pii_dataset.csv'
-    o='redacted_output_manya_tyagi.csv'
+    o='redacted_output_candidate_full_name.csv'
     main(i,o)
+
